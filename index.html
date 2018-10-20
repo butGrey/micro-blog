@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>个人主页</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="style/common.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+<div class="box" id="box">
+        <div class="page">
+            <header class="clearfix">
+                <a href="#" id="menu" class="menu fl iconfont icon-xitongcaidan"></a>
+                <span class="header_item">
+                	<a href="#" class="active">Open</a>
+                	<a href="#">Close</a>
+                </span>
+                <a href="#" class="add fr iconfont icon-zengjia"></a>
+            </header>
+            <div class="item">
+                <div class="item_hd">
+                    <div class="item_tit clearfix">
+                        <div class="user_img">
+                            <img src="img/80x80.jpg" alt="">
+                        </div>
+                        <h5>Martin</h5>
+                        <span class="iconfont icon-shoucang save">175</span>
+                    </div>
+                    <p class="info_text">You cannot improve your past, but you can improve your future. </p>
+                </div>
+                <div class="item_bd">
+                    <div class="ibd_img">
+                        <img src="img/400x400.png" alt="">
+                        <div class="ibd_time"><i></i><span>01:11:03</span></div>
+                    </div>
+                    <div class="btns clearfix">
+                        <span class="people fl iconfont icon-geren"> people</span>
+                        <span class="share fr iconfont icon-fenxiang"> share</span>
+                        <a href="" class="btn_mao iconfont icon-matou"> ACCEPT</a>
+                    </div>
+                </div>
+            </div>
+			<div class="item">
+                <div class="item_hd">
+                    <div class="item_tit clearfix">
+                        <div class="user_img">
+                            <img src="img/vg.jpg" alt="">
+                        </div>
+                        <h5>Vincent van Gogh</h5>
+                        <span class="iconfont icon-shoucang save">88</span>
+                    </div>
+                    <p class="info_text">He was born. His painting. His death. The catcher in a golden crow, a group of screaming through the sky.</p>
+                </div>
+                <div class="item_bd">
+                    <div class="ibd_img">
+                        <img src="img/Night.jpg" alt="">
+                        <div class="ibd_time"><i></i><span>03:21:42</span></div>
+                    </div>
+                    <div class="btns clearfix">
+                        <span class="people fl iconfont icon-geren"> people</span>
+                        <span class="share fr iconfont icon-fenxiang"> share</span>
+                        <a href="" class="btn_mao iconfont icon-matou"> ACCEPT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item_hd">
+                    <div class="item_tit clearfix">
+                        <div class="user_img">
+                            <img src="img/snowman.jpg" alt="">
+                        </div>
+                        <h5>Snowman</h5>
+                        <span class="iconfont icon-shoucang save">17</span>
+                    </div>
+                    <p class="info_text">Jack of all trades and master of none.</p>
+                </div>
+                <div class="item_bd">
+                    <div class="ibd_img">
+                        <img src="img/tree.jpg" alt="">
+                        <div class="ibd_time"><i></i><span>22:11:03</span></div>
+                    </div>
+                    <div class="btns clearfix">
+                        <span class="people fl iconfont icon-geren"> people</span>
+                        <span class="share fr iconfont icon-fenxiang"> share</span>
+                        <a href="" class="btn_mao iconfont icon-matou"> ACCEPT</a>
+                    </div>
+                </div>
+            </div>
+  		</div>
+
+        <div class="mask"></div>
+        <div class="leftNav">
+            <a href="#" id="menu2" class="menu fl iconfont icon-caidan"></a>
+        </div>
+    </div>
+  <script>
+        var oMe = document.getElementById('menu');
+        var oMe2 = document.getElementById('menu2');
+        var oBox = document.getElementById('box');
+
+        oMe.onclick = function(){
+            oBox.className = 'box open';
+        }
+        oMe2.onclick = function(){
+            oBox.className = 'box';
+        }
+    </script>
+</body>
+</html>

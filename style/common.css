@@ -1,0 +1,166 @@
+body{
+	background-color: #fef4e4;
+
+}
+.box{
+
+}
+.page{
+	margin: 0 auto;
+}
+
+header{
+	padding: 1.9375rem 0.6875rem 0.625rem;
+	text-align: center;
+
+}
+.menu,.add{
+	width: 3.125rem;
+	height: 3.125rem;
+	font-size: 1.875rem;
+	color: #666;
+	text-align: center;
+	line-height: 3.125rem;
+}
+.header_item{
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0.3125rem;
+	border-radius: 0.5rem;
+	background-color: #efe1d3;
+
+
+}
+.header_item a{
+	display: inline-block;
+	height: 1.875rem;
+	line-height: 1.875rem;
+	padding: 0 0.625rem;
+	border-radius: 0.5rem;
+	color: #000;
+	
+
+}
+.header_item .active{
+	color: #fff;
+	background-color: #ff7f66;
+}
+.item_hd{
+	padding: 1.9375rem 0.625rem 0;
+
+}
+.user_img{
+	width: 3.125rem;
+	height: 3.125rem;
+	border: solid 0.3125rem #ff9884;
+	border-radius: 50%;
+	float: left;
+	margin-right: 0.9375rem;
+}
+.user_img img{
+	width: 3.125rem;
+	height: 3.125rem;
+	border-radius: 50%;
+}
+.item_tit h5{
+	float: left;
+	font-size: 1.25rem;
+	line-height: 3.75rem;
+}
+.icon-shoucang{
+	font-size: 1rem;
+	line-height: 3.75rem;
+	float: right;
+}
+.icon-shoucang:before{
+	margin-right: .5rem;
+}
+.info_text{
+	margin: 1.1875rem 0;
+	line-height: 1.875rem;
+	font-size: 1.1875rem;
+}
+.ibd_img{
+	position: relative;
+}
+.ibd_img img{
+	width: 100%;
+}
+.ibd_time{
+	position: absolute;
+	width: 12.5rem;
+	left: 50%;
+	top: 0;
+	height: 100%;
+	background-color: rgb(0,0,0,.3);
+	color: #fff;
+	margin-left: -6.25rem;
+	text-align: center;
+	font-size: 1.875rem;
+}
+.ibd_time i{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.ibd_time span{
+    vertical-align: middle;
+}
+.btns{
+	height: 3.125rem;
+	background-color: #2f3d4c;
+}
+.btn_mao{
+	width: 7.5rem;
+	height: 2.1875rem;
+	margin: 0.5rem auto;
+	display: block;
+	background-color: #ff7f66;
+	border-radius: 0.5rem;
+	color: #fff;
+	font-size: 1.1875rem;
+	line-height: 2.125rem;
+	text-align: center;
+}
+.people,.share{
+    color: #FFF;
+    font-size: 1.1875rem;
+    line-height: 3.125rem;
+    margin: 0 0.625rem;
+}
+.mask{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+	display: none;
+}
+.leftNav{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 80%;
+	height: 100%;
+	background-color: #2f3d4c;
+	transform: translateX(-100%);
+	transition: .5s;
+}
+.page{
+	transition: .5s;
+}
+.leftNav .menu{
+	position: absolute;
+	right: -20%;
+	top: 1.9375rem;
+	display: none;
+}
+.open .mask,.open .leftNav .menu{
+	display: block;
+}
+	.open .page{
+	transform: translateX(80%);
+}
+.open .leftNav{
+	transform: translateX(0);
+}
